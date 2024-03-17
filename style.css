@@ -1,0 +1,133 @@
+*{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.img-block{
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sitename-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    font-size: 50px;
+    position: relative;
+    top: 225px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.form-container{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.shlok{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    padding-right: 20px;
+    padding-left: 45px;
+}
+.shlok>h2{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    box-shadow: 0 -4px 4px -5px rgba(0, 0, 0, 0.4);
+}
+
+.inp-containers{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.4);
+}
+
+.om-tat-sat{
+    padding-left: 45px;
+}
+
+.label-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 80px;
+}
+
+label{
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1.6px solid rgb(201, 201, 201);
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+    padding-left: 8px;
+    transition: all .3s ease;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(0, 132, 255);
+    box-shadow: 0 0 2px;
+}
+
+.btn-links{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 45px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(56, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p,a{
+    text-transform: none;
+}
